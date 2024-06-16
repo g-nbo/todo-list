@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 0;
+  padding: 2rem;
+  height: 70vh;
+}
+
+.formBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+  padding: 1em;
+  outline: auto;
+
+}
+
+#addInput {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-weight: 1000;
+}
+
+#addForm {
+  display: flex;
+  height: 2em;
+}
+
+
