@@ -23,9 +23,6 @@ function reducer(state, action) {
 
 function App() {
 
-  // const [newItem, setNewItem] = useState("")
-  // const [todos, setTodos] = useState(initialState)
-
   const [todos, dispatch] = useReducer(reducer, initialState)
 
   const handleInputText = (e) => {
@@ -40,22 +37,9 @@ function App() {
     )
   }
 
-  // function handleSubmit(e) {
-  //   e.preventDefault();
-  //   setTodos([
-  //     {
-  //       "id": todos.length + 1,
-  //       "title": newItem,
-  //       "compelted": false
-  //     },
-  //     ...todos
-  //   ]
-  //   )
-  // }
-
   return (
     <>
-    
+
       <Heading text="Todo List" />
 
       <form onSubmit={handleInputText} action="">
